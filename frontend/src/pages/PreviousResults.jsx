@@ -15,7 +15,7 @@ function PreviousResults() {
                 const token = sessionStorage.getItem("token");
 
                 const response = await fetch(
-                    "http://localhost:5000/api/results",
+                    "https://assessment-platform-yypg.onrender.com/api/results",
                     {
                         headers: {
                             Authorization: `Bearer ${token}`

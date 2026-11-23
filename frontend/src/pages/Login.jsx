@@ -25,7 +25,7 @@ function Login() {
 
         try {
             const response = await fetch(
-                "http://localhost:5000/api/students/login",
+                "https://assessment-platform-yypg.onrender.com/api/students/login",
                 {
                     method: "POST",
                     headers: {

@@ -35,7 +35,7 @@ function Register() {
             const { confirmPassword, ...studentData } = formData;
 
             const response = await fetch(
-                "http://localhost:5000/api/students/register",
+                "https://assessment-platform-yypg.onrender.com/api/students/register",
                 {
                     method: "POST",
                     headers: {

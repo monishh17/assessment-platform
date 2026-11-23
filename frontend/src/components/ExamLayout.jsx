@@ -85,7 +85,7 @@ function ExamLayout({ testId, questions, testName, duration }) {
     try {
       const token = sessionStorage.getItem("token");
 
-      const response = await fetch("http://localhost:5000/api/results", {
+      const response = await fetch("https://assessment-platform-yypg.onrender.com/api/results", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
