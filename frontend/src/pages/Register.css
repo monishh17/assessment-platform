@@ -1,0 +1,144 @@
+/* Main Background */
+
+.register-page {
+    min-height: 100vh;
+    width: 100%;
+    background: #4b6df5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Registration Card */
+
+.register-box {
+    width: 100%;
+    max-width: 850px;
+    padding: 45px 55px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.register-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.register-header h1 {
+    color: #222d48;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.register-header p {
+    color: #777;
+    font-size: 15px;
+}
+
+/* Form Grid */
+
+.register-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px 28px;
+}
+
+/* Individual Fields */
+
+.register-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-field label {
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.register-field input,
+.register-field select {
+    width: 100%;
+    height: 46px;
+    padding: 0 14px;
+    border: 1px solid #d5d5d5;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.2s ease;
+}
+
+.register-field input:focus,
+.register-field select:focus {
+    border-color: #4b6df5;
+    box-shadow: 0 0 0 3px rgba(75, 109, 245, 0.12);
+}
+
+/* Create Account Button */
+
+.register-btn {
+    width: 100%;
+    height: 49px;
+    margin-top: 32px;
+    background: #4b6df5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.register-btn:hover {
+    background: #3455dc;
+    transform: translateY(-1px);
+}
+
+/* Login Link */
+
+.login-text {
+    text-align: center;
+    margin-top: 27px;
+    color: #777;
+    font-size: 14px;
+}
+
+.login-text span {
+    color: #4b6df5;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-text span:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+
+@media (max-width: 650px) {
+
+    .register-box {
+        padding: 32px 22px;
+    }
+
+    .register-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .register-header h1 {
+        font-size: 25px;
+    }
+}

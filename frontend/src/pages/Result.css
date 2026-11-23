@@ -1,0 +1,78 @@
+.result-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fb;
+  padding: 20px;
+}
+
+.result-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.result-card h1 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.result-card h2 {
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.score-circle {
+  width: 150px;
+  height: 150px;
+  border: 8px solid #4b6df5;
+  border-radius: 50%;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-circle h1 {
+  color: #4b6df5;
+  margin: 0;
+  font-size: 32px;
+}
+
+.score-circle p {
+  color: #777;
+  margin-top: 5px;
+}
+
+.result-card h3 {
+  font-size: 28px;
+  color: #4b6df5;
+  margin-bottom: 15px;
+}
+
+.result-card p {
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.result-card button,
+.result-container button {
+  padding: 12px 25px;
+  background: #4b6df5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.result-card button:hover,
+.result-container button:hover {
+  background: #3454d1;
+}
